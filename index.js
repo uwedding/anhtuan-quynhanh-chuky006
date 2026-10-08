@@ -243,4 +243,10 @@ window.addEventListener('DOMContentLoaded', function () {
     brides.forEach(bride => bride.style.display = "none");
     grooms.forEach(groom => groom.style.display = "block");
   }
+
+  if (target === 'bride') {
+    document.querySelector('#SHAPE37')?.classList.add('bride_clone');
+  }
 });
+
+
